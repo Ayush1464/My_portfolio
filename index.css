@@ -1,0 +1,169 @@
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+    display: flex;
+ }
+.left{
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.left>img{
+  width: 40%;
+  height: 100px;
+  margin-left: 130px;
+}
+.right{
+    width: 60%;
+    height: 100%;
+    align-items: center;
+}
+.right>ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    text-transform: uppercase;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.right>ul>li>a{
+text-decoration: none;
+}
+.home{
+    width: 100%;
+    height: 80vh;
+    background-color: whitesmoke;
+}
+.innerhome{
+    width: 60%;
+    height: 100%;
+    margin:20px 150px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.innerhome>button{
+  width: 150px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 40px;
+  background-color: green;
+  color: black;
+  font-size: 15px;
+  
+}
+.home>.innerhome>h1>span{
+    color: yellowgreen;
+}
+.about{
+    width: 100%;
+    height: 110vh;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    display: flex;
+}
+.about>img{
+    width: 35%;
+    height: 90%;
+    margin-top: 60px;
+    margin-left: 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.about>.aboutme{
+    width: 60%;
+    font-size: 17px;
+    padding: 35px;
+    text-align: justify;
+}
+.about>.aboutme>p{
+    line-height: 1.5;
+    word-spacing: 2px;
+}
+.about>.aboutme>section>p{
+    line-height: 1;
+    word-spacing: 2px;
+}
+.about img:hover {
+    transform: scale(1.1); 
+}
+.aboutme h2:hover {
+    color: #ff5722; 
+    cursor: pointer; 
+}
+.aboutme h1:hover {
+    color: #ff5722; 
+    cursor: pointer; 
+}
+.skills {
+    max-width: 60%;
+    height: 90vh;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .skills h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  .skills h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .skills h3:hover {
+    background-color: #ff5722;
+    transform: scale(1.1); 
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+
+#contact {
+  max-width: 100%;
+
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#contact h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.contact-info {
+  background-color: #f8f9fa;
+  height: 50vh;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
